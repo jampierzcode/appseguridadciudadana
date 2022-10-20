@@ -1,0 +1,84 @@
+.modal-create .container-modal {
+  margin: 80px 0px !important;
+}
+.richText .richText-editor {
+  height: 170px !important;
+}
+.work-class {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.work-class #create-work-class {
+  padding: 9px 20px;
+  background: #222e3c;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work-class #update-work-class {
+  padding: 9px 20px;
+  background: rgb(0, 156, 109);
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work-class #create-work-class ion-icon {
+  margin-right: 5px;
+  font-size: 24px;
+}
+.work-class #update-work-class ion-icon {
+  margin-right: 5px;
+  font-size: 24px;
+}
+.menu-work-class {
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  z-index: 20;
+  box-shadow: 0px 0px 1px 0px #4c4c4c;
+  margin-top: 10px;
+  width: auto;
+  transition: transform 0.5s;
+  overflow-x: hidden;
+  display: flex;
+
+  box-shadow: -16px 6px 33px -16px #4c4c4c;
+}
+.menu-work-class.hidden {
+  display: none;
+}
+.menu-work-class > li {
+  padding: 15px 24px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+.menu-work-class > li > ion-icon {
+  margin-right: 5px;
+}
+.menu-work-class > li:hover {
+  background: orange;
+  color: #000;
+  cursor: pointer;
+}
+.richText {
+  margin-bottom: 10px;
+}
+#update-work-class > ion-icon.vuelta {
+  animation: girar 3s;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

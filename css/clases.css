@@ -1,0 +1,84 @@
+.content-dashboard {
+  height: auto !important;
+}
+.list-clases {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.slide-clase {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+}
+/* .clase-inicial {
+  background: #f3f3f3;
+}
+.clase-primaria {
+  background: #5b5b5b;
+}
+.clase-primaria h1,
+.clase-primaria p {
+  color: #fff !important;
+}
+.clase-secundaria {
+  background: #fecdaa;
+} */
+.slide-clase > img {
+  width: 100%;
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.slide-clase > .description-clase {
+  width: 100%;
+  margin-left: 20px;
+}
+.slide-clase > .description-clase h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.slide-clase > .description-clase p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+.slide-clase > .description-clase .btn-crud-class {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.slide-clase > .description-clase .btn-crud-class button {
+  padding: 9px 18px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.slide-clase > .description-clase .btn-crud-class .btn-view-class {
+  background: #5255e5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.slide-clase > .description-clase .btn-crud-class .btn-view-class > ion-icon {
+  margin-right: 5px;
+  font-size: 25px;
+}
+.slide-clase > .description-clase .btn-crud-class button {
+  background: #ed233b;
+  color: #fff;
+}
+/* TAMAÑOS DE PANTALLA */
+
+@media screen and (max-width: 1136px) {
+  .list-clases {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

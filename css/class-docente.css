@@ -1,0 +1,77 @@
+.header-courses {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.header-courses h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.body-course {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.body-course .course-card {
+  padding: 20px 24px;
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  background: #fff;
+  width: 48%;
+  margin-bottom: 20px;
+}
+.body-course .course-card .img-teacher img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px dashed #ececec;
+}
+.body-course .course-card .description-course {
+  width: 100%;
+  padding: 0px 30px;
+}
+.body-course .no-register-class {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+.body-course .course-card .description-course span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #5b5b5b;
+}
+.body-course .course-card .description-course p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.body-course .course-card .description-course a {
+  display: inline-block;
+  padding: 5px 20px;
+  background: #4e2adb;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+.body-course .course-card .description-course a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px 0px #fafafa;
+}
+.body-course .course-card .description-course h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 766px) {
+  .body-course .course-card {
+    width: 100%;
+  }
+}

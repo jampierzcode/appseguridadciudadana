@@ -1,0 +1,22 @@
+.header-class {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.header-class h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.course-card {
+  margin-bottom: 20px !important;
+  width: 48% !important;
+}
+.body-course {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1070px) {
+  .body-course .course-card {
+    width: 100% !important;
+  }
+}

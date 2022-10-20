@@ -1,0 +1,73 @@
+.list-salones {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+.list-salones > .error-search {
+  font-size: 16px;
+  font-weight: 500;
+}
+.list-salones .card-salon {
+  width: 100%;
+  padding: 20px 30px;
+  background: #ececec;
+  position: relative;
+  z-index: 30;
+}
+@media screen and (max-width: 931px) {
+  .list-salones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 695px) {
+  .list-salones {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.list-salones .card-salon .overlay-icon-salon {
+  position: absolute;
+  z-index: 40;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  padding: 20px 30px;
+}
+.list-salones .card-salon .overlay-icon-salon ion-icon {
+  font-size: 40px;
+  color: #000;
+}
+.list-salones .card-salon h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+.list-salones .card-salon p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.list-salones .card-salon p span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fafafa;
+  padding: 4px;
+  border-radius: 4px;
+}
+.inicial-nivel {
+  background: #4e2adb;
+}
+.primaria-nivel {
+  background: #669e05;
+}
+.secundaria-nivel {
+  background: #5b5b5b;
+}

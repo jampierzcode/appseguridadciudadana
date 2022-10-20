@@ -1,0 +1,32 @@
+.grading > h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+table .img-table .img-user {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+table .calificacion > input {
+  width: 80px;
+  padding: 10px;
+  border-style: none;
+}
+table .link-tarea a {
+  color: #000;
+}
+table .calificacion > button {
+  padding: 10px;
+  border-style: none;
+  background: #42321f;
+  color: #fff;
+}
+table.dataTable tbody th,
+table.dataTable tbody td {
+  font-size: 14px !important;
+}

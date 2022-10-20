@@ -1,0 +1,96 @@
+.class-detail {
+  width: 100%;
+  position: relative;
+}
+.container-class-detail {
+  width: auto;
+}
+.class-detail h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.class-detail p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ececec;
+  color: #5b5b5b;
+  font-weight: 400;
+}
+.list-tareas {
+  margin-top: 20px;
+}
+.list-tareas .card-tareas {
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border: 1px solid #d8d8d8;
+  display: block;
+  color: inherit;
+  transition: all 0.3s;
+  background: #fff;
+}
+.list-tareas .card-tareas:hover {
+  background: #fafbff;
+  box-shadow: 0px 0px 10px 0px #ececec;
+}
+.list-tareas .card-tareas .header-task {
+  display: flex;
+  align-items: center;
+}
+.list-tareas .card-tareas .header-task .icon-img > ion-icon {
+  width: 25px;
+  height: 25px;
+  padding: 9px;
+  border-radius: 50%;
+  background: #5b5b5b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+.list-tareas .card-tareas .header-task .icon-img > .i-material {
+  background: #5b0bc4;
+}
+.list-tareas .card-tareas .header-task .title-task {
+  width: 100%;
+  margin-left: 15px;
+  overflow: hidden;
+}
+.list-tareas .card-tareas .header-task .title-task h1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.list-tareas .card-tareas .header-task .title-task span {
+  display: inline-block;
+  text-align: end;
+  font-size: 14px;
+  font-weight: 400;
+}
+.list-tareas .card-tareas .description-task {
+  margin-left: 65px;
+  margin-bottom: 10px;
+}
+.list-tareas .card-tareas .description-task p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.list-tareas .card-tareas .link-task {
+  width: 100%;
+  display: inline-flex;
+  margin-left: 65px;
+}
+.list-tareas .card-tareas .link-task .btn-task {
+  padding: 9px 18px;
+  background: #ececec;
+  font-size: 12px;
+  color: #000;
+  transition: all 0.2s;
+}
+.list-tareas .card-tareas .link-task .btn-task:hover {
+  background: #222e3c;
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  background: #fafafa;
+}
+button {
+  border-style: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif !important;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border-style: none;
+  font-family: "Poppins", sans-serif !important;
+}
+textarea {
+  border-style: none;
+  font-family: "Poppins", sans-serif !important;
+}
+label {
+  font-family: "Poppins", sans-serif !important;
+}
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+select {
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+}
+select:focus {
+  outline: none;
+}
+table {
+  border-spacing: 0px;
+}
+td {
+  padding: 5px;
+}

@@ -1,0 +1,102 @@
+.modal-create {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0, 0.4);
+  z-index: 4000;
+  overflow-y: auto;
+  display: none;
+}
+.modal-visible {
+  display: flex;
+}
+.modal-create ::-webkit-scrollbar {
+  width: 10;
+}
+.modal-create .container-modal {
+  width: 500px;
+  padding: 20px 30px;
+  background: #fafafa;
+  margin-top: 90px;
+}
+.modal-create .container-modal .header-modal {
+  width: 100%;
+  padding: 15px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-create .container-modal .header-modal .toast-response {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  width: 80%;
+  padding: 12px 20px;
+  transform: translateX(100%);
+  margin-bottom: 20px;
+  z-index: 40;
+  transition: transform 1s;
+}
+.exito-response-modal {
+  background: #0bc85b;
+}
+.fracaso-response-modal {
+  background: rgb(224, 49, 50);
+}
+.modal-create .container-modal .header-modal .toast-response > h1 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.toast-show {
+  transform: translateX(0) !important;
+}
+.modal-create .container-modal .header-modal h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.modal-create .container-modal .header-modal .close-modal {
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.modal-create .container-modal .body-modal {
+  width: 100%;
+  padding: 20px 0px;
+}
+.modal-create .container-modal .body-modal form .input-controls {
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: #f3f3f3;
+  margin-bottom: 10px;
+  border: none;
+}
+.modal-create .container-modal .body-modal form .label-controls {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+.modal-create .container-modal .body-modal form .btn-submit {
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 24px;
+  background: crimson;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}

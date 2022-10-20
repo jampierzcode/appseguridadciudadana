@@ -1,0 +1,65 @@
+.list-cursos {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.list-cursos > .error-search {
+  font-size: 16px;
+  font-weight: 500;
+}
+.list-cursos .card-curso {
+  width: 100%;
+  padding: 20px 30px;
+  background: #ececec;
+  position: relative;
+  z-index: 30;
+}
+@media screen and (max-width: 931px) {
+  .list-cursos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 695px) {
+  .list-cursos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.list-cursos .card-curso .overlay-icon-curso {
+  position: absolute;
+  z-index: 40;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  padding: 20px 30px;
+}
+.list-cursos .card-curso .overlay-icon-curso ion-icon {
+  font-size: 25px;
+  color: #000;
+}
+.list-cursos .card-curso h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+.list-cursos .card-curso p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.list-cursos .card-curso p span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fafafa;
+  background: royalblue;
+  padding: 4px;
+  border-radius: 4px;
+}
